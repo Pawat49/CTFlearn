@@ -15,33 +15,33 @@ one  =  0
 
 with  open('data.dat','r') as  file:
 
-content  =  file.read()
+	content  =  file.read()
 
   
 
-for  line  in  content:
+	for  line  in  content:
 
-if  line  ==  '\n':
-
-  
-
-if  zero  %  3  ==  0  or  one  %  2  ==  0:
+		if  line  ==  '\n':
 
   
 
-count  +=  1
+			if  zero  %  3  ==  0  or  one  %  2  ==  0:
 
-zero  =  0
+  
 
-one  =  0
+				count  +=  1
 
-if  line  ==  '0':
+			zero  =  0
 
-zero  +=  1
+			one  =  0
 
-elif  line  ==  '1':
+		if  line  ==  '0':
 
-one  +=  1
+			zero  +=  1
+
+		elif  line  ==  '1':
+
+			one  +=  1
 
   
 
