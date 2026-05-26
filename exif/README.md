@@ -1,6 +1,8 @@
 # Exif
 If only the password were in the image?
 
+![image](https://github.com/Pawat49/CTFlearn/blob/eb84e9be982996dcec03b00889be7f29cfefe6d9/exif/c3158790-353b-4bec-9af2-9ba62a6d6b4f.jfif)
+
 [download image](https://mega.nz/#!SDpF0aYC!fkkhBJuBBtBKGsLTDiF2NuLihP2WRd97Iynd3PhWqRw)
 
 [find flag from image from this website](https://exifinfo.org/)
