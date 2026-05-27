@@ -3,7 +3,7 @@ Can you help me? I need to know how many lines there are where the number of 0's
 (https://mega.nz/#!7aoVEKhK!BAohJ0tfnP7bISIkbADK3qe1yNEkzjHXLKoJoKmqLys)
 
 ## ขั้นตอนในการ run
- 1. ```cd zero-or-run```
+ 1. ```cd zero-or-one```
  2. ```python read-file.py```
 ## Code
 ```python
