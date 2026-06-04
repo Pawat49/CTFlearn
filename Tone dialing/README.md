@@ -4,9 +4,9 @@ At 1pm I called my uncle who was 64 years old 10 months ago, but I heard only th
 
 I hope you will help me solve this problem
 
-![you_know_what_to_do.wav](/Tone%20dialing/you_know_what_to_do.wav)
+[you_know_what_to_do.wav](/Tone%20dialing/you_know_what_to_do.wav)
 
-![decrypt DTMF this link](https://dtmf.netlify.app/)
+decrypt DTMF this link https://dtmf.netlify.app/
 ```
 0001s 666..777.................
 0002s ..........888..444.......
@@ -45,6 +45,6 @@ convert number to letters with ASCII code
 
 67 84 70 108 101 97 110 123 67 82 89 80 84 79 71 82 65 80 72 89 125
 
-![convert ASCII to text](https://www.duplichecker.com/ascii-to-text.php)
+convert ASCII to text https://www.duplichecker.com/ascii-to-text.php
 
 flag : `CTFlean{CRYPTOGRAPHY}`
