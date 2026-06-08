@@ -1,12 +1,22 @@
-# Tone dialing
+# Tone Dialing
 
-At 1pm I called my uncle who was 64 years old 10 months ago, but I heard only that. Later I started thinking about the 24 hour clock.
+## Description
 
-I hope you will help me solve this problem
+At 1pm I called my uncle who was 64 years old 10 months ago, but I heard only that. Later I started thinking about the 24-hour clock.
+
+I hope you will help me solve this problem.
 
 [you_know_what_to_do.wav](/Tone%20dialing/you_know_what_to_do.wav)
 
-decrypt DTMF this link https://dtmf.netlify.app/
+## Solution
+
+The provided `.wav` file contains DTMF (Dual-Tone Multi-Frequency) tones, typical of telephone dialing. We can use a DTMF decoder to extract the numerical sequence.
+
+1. Navigate to a DTMF decoding tool, such as [dtmf.netlify.app](https://dtmf.netlify.app/).
+2. Upload and decode the audio file to obtain the sequence of key presses.
+
+### Extracted Sequence
+
 ```
 0001s 666..777.................
 0002s ..........888..444.......
@@ -38,13 +48,18 @@ decrypt DTMF this link https://dtmf.netlify.app/
 0028s ..........888..999.......
 0029s ....................111..
 0030s 222..555..
-
-Decoded: 67847010810197110123678289808479718265807289125
 ```
-convert number to letters with ASCII code
 
-67 84 70 108 101 97 110 123 67 82 89 80 84 79 71 82 65 80 72 89 125
+**Decoded Numbers:** `67847010810197110123678289808479718265807289125`
 
-convert ASCII to text https://www.duplichecker.com/ascii-to-text.php
+### Convert Number to ASCII
 
-flag : `CTFlean{CRYPTOGRAPHY}`
+We can split the sequence into valid ASCII codes (decimal representation):
+
+`67 84 70 108 101 97 110 123 67 82 89 80 84 79 71 82 65 80 72 89 125`
+
+Finally, use an [ASCII to Text converter](https://www.duplichecker.com/ascii-to-text.php) to translate these values into characters.
+
+## Flag
+
+`CTFlean{CRYPTOGRAPHY}`
